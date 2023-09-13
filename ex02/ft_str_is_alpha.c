@@ -6,7 +6,7 @@
 /*   By: marabari <marabari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/11 13:08:18 by marabari          #+#    #+#             */
-/*   Updated: 2023/09/13 20:35:27 by marabari         ###   ########.fr       */
+/*   Updated: 2023/09/13 20:51:42 by marabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,8 @@ int	ft_str_is_alpha(char *str)
 	}
 	while (str[i] != '\0')
 	{
-		if ((str[i] >= 'a' && str[i] <= 'z') || ( str[i] >= 'A' && str[i] <= 'Z'))
+		if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A'
+				&& str[i] <= 'Z'))
 		{
 			i++;
 		}
